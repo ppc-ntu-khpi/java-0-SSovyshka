@@ -60,7 +60,7 @@ public class Shirt {
         return color;
     }
 
-    public void setColor(String color) {
+    private void setColor(String color) {
         this.color = color;
     }
 }
