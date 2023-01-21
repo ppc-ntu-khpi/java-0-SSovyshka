@@ -21,6 +21,9 @@ public class Shirt {
     } // кінець методу displayShirtInformation
 
 
+    public Shirt() {
+    }
+
     public Shirt(int shirtID, String description, char colorCode, double price, int quantityInStock) {
         this.shirtID = shirtID;
         this.description = description;
